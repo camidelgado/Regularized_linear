@@ -69,4 +69,4 @@ modelo = Lasso(alpha = alfa_optimo,normalize = True)
 modelo.fit(X_train,y_train)
 
 
-pickle.dump(modelo, open('../models/best_model_reg_linear.pickle', 'wb'))
+pickle.dump(modelo, open('../models/best_model_reg_linear.pickle', 'wb'))git remote set-url origin
